@@ -5,8 +5,8 @@
 
     {% load static %}
     <div class="row justify-content-center my-3">
-        <div class="col-5">
-            <img src="{% static 'portfolio/Averance.jpg' %}" width="300">
+        <div>
+            <img src="{% static 'portfolio/Averance.jpg' %}" width="100">
         </div>
     </div>
 
@@ -37,6 +37,6 @@
         </div>
         {% endfor %}
     </div>
-    <a href="{% url 'blog:all_blogs' %}">Blog</a>
+<!--    <a href="{% url 'blog:all_blogs' %}">Blog</a>-->
 
 {% endblock %}
